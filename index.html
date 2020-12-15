@@ -1,31 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Picture It!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro&family=Amatic+SC&family=Architects+Daughter&family=Caveat:wght@500&family=Handlee&family=Josefin+Sans&family=Neucha&family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Baloo+2&family=Comfortaa&family=Dosis&family=Quicksand&family=Raleway:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <!-- <h1>Picture It!</h1>
-    <h2>Can't decide which pic to pick? We'll help you! Scroll down to see this photograph in different settings to help you visualize it in your own home.</h2>
-    <h2>Not feelin' it? Click here to generate a new pic:</h2>
-    <button>New Pic</button> -->
+    <h1 id="title">Picture It!</h1>
+    <h2 id="tagline">Can't decide which pic to pick? Check out how it actually looks in a room to help you visualize it in your own home.</h2>
+    <h2 id="tagline2">Not feelin' it? Click here to generate a new pic:</h2>
+    <button id="button1" onclick="getPic()">New Pic</button>
     
-    <img src="" id="random-image">
+    <div id="image-stack">
+       
 
-    <img src="" id="random-image2">
+            <img id="living-room" src="https://cdn.pixabay.com/photo/2016/11/18/17/20/couch-1835923_1280.jpg" alt="">
+        
+            <div id="pic-frame"></div>
+        
+            <!-- <img id="pic-frame" src="images/silver-frame-crop.jpg" alt=""> -->
+        
+            <img src="" id="random-image">
+        
+    </div>
 
-    <img src="" id="random-image3">
+    <div>
+        <p>Photographer: <span id="photographer"></span></p>
+    </div>
+
+    <!-- <img src="" id="random-image2">
+
+    <img src="" id="random-image3"> -->
+
+    <!-- <section id="lr"> -->
+
+    <!-- <div id="lr-pic">
+            <img id="lr-pic-frame"
+                src="https://lh3.googleusercontent.com/proxy/9NzK7t06sfTNDSf3JmcKSvAgM8sadqiBg6M8jYMql36Hr3SSolv0m4WJwllS8_9krRGhHoOr4OqEoyIuNSqJtlWEc53puKFUicwTHI3CoqBxqkyKMELnCrd1mZiO"
+                alt="">
+            <img src="" class="random-image"> -->
+    <!-- </div>
+    </section> -->
 
 
 
-
-    <div></div>
-
-    
-        <ul>
-            <!--The JavaScript will load items here-->
-        </ul>
+    <!-- <ul>
+            The JavaScript will load items here
+        </ul> -->
     <script src="pic-a-pic.js"></script>
 </body>
+
 </html>

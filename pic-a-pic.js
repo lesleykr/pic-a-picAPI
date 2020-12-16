@@ -117,7 +117,10 @@ fetch(baseUrl)
             }) 
             
             //GRAYSCALE FETCH
+            // grayClick = guessSubmit.addEventListener('click', checkGuess);
 
+
+            document.getElementById('button2').addEventListener("click", function() {
             fetch(repGrayscale)
             .then(function (response2) {
                 if (!response2.ok) {
@@ -134,14 +137,15 @@ fetch(baseUrl)
                 console.log("My Blob2:", photoBlob)
                 var objectURL = URL.createObjectURL(photoBlob);
                 console.log("Object URL2:", objectURL);
-                randomImage2.src = objectURL;
+                randomImage.src = objectURL;
         
                 console.log("randomImage2.src:", randomImage.src);
         
          
-            })
+            })})
 
             //BLUR FETCH
+            document.getElementById('button3').addEventListener("click", function() {
             fetch(repBlur)
             .then(function (response2) {
                 if (!response2.ok) {
@@ -158,13 +162,12 @@ fetch(baseUrl)
                 console.log("My Blob3:", photoBlob)
                 var objectURL = URL.createObjectURL(photoBlob);
                 console.log("Object URL3:", objectURL);
-                randomImage3.src = objectURL;
+                randomImage.src = objectURL;
         
                 console.log("randomImage3.src:", randomImage.src);
         
          
-            })
-
+            })})
 //END GRAYSCALE FETCH, BACK TO GRAB PHOTOGRAPHER
 
 

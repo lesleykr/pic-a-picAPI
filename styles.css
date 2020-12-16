@@ -18,12 +18,13 @@ body {
 
 #tagline {
     text-align: center;
-    margin-top: 20px;
+    margin-bottom: 1px;
 }
 
 #tagline2 {
     text-align: center;
-    margin-top: 20px;    
+    margin-top: 1px;
+        
 }
 
 #button1 {
@@ -35,13 +36,51 @@ body {
     font-weight: bold;
     border: 5px solid #efd9d1;
     background-color: #efd9d1;
-    margin-top: 10px;
-    margin-bottom: 40px;
+   
+    
     position: relative;
     right: 45%;  
     left: 45%;      
 }
 
+#options {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#button2 {
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: 'raleway', sans-serif;
+    font-weight: bold;
+    border: 5px solid #efd9d1;
+    background-color: #efd9d1;
+    
+    margin-bottom: 10px;
+    position: relative;
+    right: 40%;  
+    left: 40%;    
+    margin-right: 10px;  
+}
+
+#button3 {
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: 'raleway', sans-serif;
+    font-weight: bold;
+    border: 5px solid #efd9d1;
+    background-color: #efd9d1;
+   
+    margin-bottom: 10px;
+    position: relative;
+    right: 40%;  
+    left: 40%; 
+    margin-left: 10px;     
+}
 #image-stack {
     display: grid;
     grid-template-columns: 31% 29% 40%;

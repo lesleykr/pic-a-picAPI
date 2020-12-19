@@ -14,18 +14,27 @@
 </head>
 
 <body>
-    <h1 id="title">Picture It!</h1>
-    <h2 id="tagline">Can't decide which pic to pick? Check out how it actually looks in a room to help you visualize it
-        in your own home.</h2>
-    <h2 id="tagline2">Not feelin' it? Click here to generate a new pic:</h2>
-    <button id="button1" onclick="getPic()">New Pic</button>
-    <h2 id="options">Want a different vibe? Add an effect!</h2>
-    <button id="button2">Grayscale</button>
-    <button id="button3">Blur</button>
+
+    <div id="heading">
+        <h1 id="title">Picture It!</h1>
+
+        <h2 id="tagline">Can't decide which pic to pick? Check out how it actually looks in a room to help you visualize
+            it in your own home.</h2>
+            
+        <h2 id="tagline2">Not feelin' it? Click here to generate a new pic:</h2>
+
+        <button id="button1" onclick="getPic()">New Pic</button>
+
+        <h2 id="options">Want a different vibe? Add an effect!</h2>
+
+        <button id="button2">Grayscale</button>
+        
+        <button id="button3">Blur</button>
+    </div>
 
     <div id="image-stack">
 
-        <img id="living-room" src="https://cdn.pixabay.com/photo/2016/11/18/17/20/couch-1835923_1280.jpg" alt="">
+        <img id="living-room" src="images/couch-1835923_1920.jpg" alt="">
 
         <div id="pic-frame"></div>
 
@@ -34,7 +43,7 @@
     </div>
 
     <div>
-        <p>Photographer: <span id="photographer"></span></p>
+        <p id="photographer-label">Photographer: <span id="photographer"></span></p>
     </div>
 
     <script src="pic-a-pic.js"></script>
